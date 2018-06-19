@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+.wrapper {
+  border: solid 1px grey;
+  padding-bottom: 10px;
+  width: 130px;
+  background: linear-gradient(to bottom right, white, lightblue);
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.container{
+  text-align: center;
+  margin-top:10px;
+
+}
+
+.numbers {
+
+}
+
+.operator {
+
+}
+
+#output {
+border: solid 1px black;
+width: 100px;
+padding-top:20px;
+padding-bottom:20px;
+margin-top:10px;
+background: grey;
+
+
+
+}
+
+button {
+  width:30px;
+  background: linear-gradient(to bottom right, grey, lightblue);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
