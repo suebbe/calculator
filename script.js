@@ -6,30 +6,47 @@ let secondNumber = parseInt(prompt("Please enter another number"),10);
 
 let input = [];
 
-let firstnumber = input[0]
-let operator = input[1]
-let secondnumber = input[2]
 
-const allNumbers = document.querySelectorAll("button");
-const operators = document.querySelectorAll(".operator");
-const output = document.querySelectorAll("#output");
+let firstValue = input[0];
+let operator = input[1];
+let secondValue = input[2];
+
+
+const allNumbers = document.querySelector("button");
+const operators = document.querySelector(".operator");
+const output = document.querySelector("#output");
 const equals = document.getElementById('#equals');
 
 
 $("button").click(function() {
- input.push(event.target.innerText);
- console.log(input);
-});
+ input.push(event.target.value);
+ output.innerText=(input.join(''));
 
 
-if (allNumbers.target.dataset.value == "="){
-
+if (event.target.value == "="){
+  console.log(input.join(''));
+  console.log(parseInt(input[0]) + parseInt(input[2]))
+  output.innerText=(parseInt(input[0]) + parseInt(input[2]))
 
 }
 
+if (event.target.value == "C"){
+  input=[]
+  output.innerText=('0');
+}
+
+
+ // for (let i = 0; i < input.length; i++){
+ //
+ //   console.log(input[]);
+ // }
 });
 
-*/
+
+
+
+
+
 
 
 

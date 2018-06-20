@@ -2,22 +2,34 @@
   box-sizing: border-box;
   margin: 0 auto;
   align-items: center;
+  font-family: helvetica
 }
 
 
 .wrapper {
   border: solid 1px grey;
-  padding-bottom: 10px;
-  width: 130px;
-  background: linear-gradient(to bottom right, white, lightblue);
+  padding-bottom: 5px;
+  padding-right: 0px;
+  width: 200px;
+  background: linear-gradient(to bottom right, white, grey);
   border-radius: 5px;
   margin-top: 10px;
-  box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.suebinator{
+  color:red;
+  font-style: helvetica;
+  font-weight: bold;
 }
 
 .container{
   text-align: center;
-  margin-top:10px;
+  height:200px;
+  padding-top:5px;
+  padding-bottom:100px;
+
+
 
 }
 
@@ -29,22 +41,49 @@
 
 }
 
-#output {
+#outputContainer {
 border: solid 1px black;
-width: 100px;
+border-radius: 2px;
+width: 180px;
 padding-top:20px;
-padding-bottom:20px;
+padding-bottom:30px;
 margin-top:10px;
-background: grey;
+background: linear-gradient(to bottom right, white, lightgreen);
+max-height: 110px;
+padding-left:15px;
 
+}
 
-
+#output {
+  font-size: 1.6em;
 }
 
 button {
   width:30px;
-  background: linear-gradient(to bottom right, grey, lightblue);
+  background: linear-gradient(to bottom right, grey, black);
   color: white;
   font-weight: bold;
   border-radius: 5px;
+  border-color: darkgrey;
+  margin-top:10px;
+  margin-left: 10px;
+
+}
+
+.orange {
+  background: linear-gradient(to bottom right, white, orange);
+  border-color: orange;
+}
+
+.C {
+background: linear-gradient(to bottom right, white, green);
+border-color: lightgreen;
+margin-left:98px;
+}
+
+.suebinator {
+  width: 85px;
+  margin: 0;
+  float:left;
+
 }
